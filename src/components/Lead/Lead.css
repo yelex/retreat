@@ -1,0 +1,56 @@
+.lead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lead__container{
+    margin-top: 153px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lead__text-container{
+    position: absolute; /* IMPORTANT - child is centered wtihout top/left coordinate*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+.lead__title-container{
+    display: flex;
+    gap: 43px;
+}
+
+.lead__btn-container{
+    display: flex;
+    gap: 47px;
+}
+
+.lead__title{
+    margin: 0;
+    font-family: 'Runic Alt', arial;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 100%;
+    color: #FFF;
+}
+
+.lead__subtitle{
+    margin: 0;
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.lead__text{
+    margin: 0;
+    font-size: 31px;
+    line-height: 1.2em;
+    color: #FFF;
+}
