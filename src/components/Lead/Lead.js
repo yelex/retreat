@@ -17,7 +17,6 @@ function Lead() {
             <p className="lead__text">27/05 - 29/05</p>
           </div>
           <img src={ circlesPath } alt="Логотип" className="lead__logo"/>
-          {/* <h1 className="lead__title"></h1> */}
         </div>
         <div className="lead__btn-container">
           <Button type="dark-green" text="Оставить заявку"/>

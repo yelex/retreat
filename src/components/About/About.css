@@ -1,0 +1,38 @@
+.about{
+    position: relative;
+    height: 759px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(16, 27, 19, 0.8) -7.81%, rgba(16, 27, 19, 0) 87.67%);
+}
+
+.about__bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../../images/about-bg.svg');
+}
+
+.about__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 860px;
+    z-index: 2;
+}
+
+.about__title{
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.about__text{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
