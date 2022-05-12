@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg,#101B13 5%, rgba(16, 27, 19, 0.8) 95%);
+    background: linear-gradient(0deg,#101B13 -7%, rgba(16, 27, 19, 0.8) 60%)
 }
 
 .about__bg{
