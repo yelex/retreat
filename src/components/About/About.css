@@ -4,15 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, #101B13, #101B1300);
+    background: linear-gradient(0deg,#101B13 5%, rgba(16, 27, 19, 0.8) 95%);
 }
 
 .about__bg{
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background-image: url('../../images/about-bg.svg');
 }
 
